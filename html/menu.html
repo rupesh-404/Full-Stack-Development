@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cafe Menu</title>
+
+
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
+
+ <!-- Font Awesome for Icons -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<style>
+        body {
+            background: linear-gradient(to bottom, #e73ea2 0%, #f8c169 105%);
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 300;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 4em;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        h2 {
+            border-bottom: 1px solid #343434;
+            font-weight: 400;
+            margin: 30px 0 0 0;
+            text-align: center;
+            text-align: left;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 400;
+            margin: 10px 0;
+        }
+
+        h3 span {
+            text-align: right;
+        }
+
+        p {
+            font-style: italic;
+            color: #343434;
+            line-height: 200%;
+            font-size: 80%;
+            margin: 5px 0;
+        }
+
+        #menu {
+            width: 640px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #f0f0f0;
+            border: 3px solid white;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        #menu h1 + p {
+            color: #343434;
+            font-style: italic;
+            font-size: small;
+            text-align: center;
+        }
+        #smallprint {
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- do not modify anything in the body element -->
+    <div id="menu">
+        <h1>Menu</h1>
+        <p>Open from 8am to 9pm every day</p>
+
+        <h2>Sandwiches and wraps</h2>
+        <h3><span>Ham and Cheese</span> &pound;2.95</h3>
+        <p>Cooked ham, cheddar cheese slices, wholemeal bread</p>
+
+        <h3><span>Hummus and Feta </span> &pound;3.95</h3>
+        <p>Roasted red pepper hummus, feta, salad, rye bread </p>
+
+        <h3><span>Egg classic </span> &pound;1.95</h3>
+        <p>Free range eggs, mayo, malted grannary bread</p>
+
+        <h3><span>Chicken wrap</span> &pound;1.95</h3>
+        <p>Chargrilled chicken, garlic mayo, shredded lettuce, plain wrap</p>
+
+        <h2>Soups</h2>
+        <h3><span>Carrot and coriander</span> &pound;2.50</h3>
+        <p>warming carrot and coriander seed soup with spices </p>
+
+        <h3><span>Lentil</span> &pound;2.50</h3>
+        <p>Hearty red lentil soup with a dash of sour cream</p>
+
+        <h3><span>Tomato</span> &pound;2.50</h3>
+        <p>Homemade organic roasted tomatato soup</p>
+        
+        <h2>Drinks</h2>
+        <h3><span>Tea</span> &pound;1.20</h3>
+        <p>Classic Yorkshire tea blend</p>
+        
+        <h3><span>Coffee</span> &pound;1.20</h3>
+        <p>Fresh ground arabica blend</p>
+
+        <h3><span>Sparkling Water</span> &pound;1.00</h3>
+        <p>Fresh carbonated mineral water</p>
+        
+        <div id="smallprint">
+            <p class="strapline">All purchases include VAT and a 10% donation to Water Aid</p>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+        </div>
+
+    </div>
+</body>
+</html>
